@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-meteor",
+        "scope": null,
+        "escapedName": "nativescript-meteor",
+        "name": "nativescript-meteor",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/pro/Desktop/daniel/mobile_App"
+    ]
+  ],
+  "_from": "nativescript-meteor@latest",
+  "_id": "nativescript-meteor@0.0.6",
+  "_inCache": true,
+  "_location": "/nativescript-meteor",
+  "_nodeVersion": "5.11.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-meteor-0.0.6.tgz_1467697325708_0.8906617416068912"
+  },
+  "_npmUser": {
+    "name": "jayuda",
+    "email": "yulius.jayuda@gmail.com"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-meteor",
+    "scope": null,
+    "escapedName": "nativescript-meteor",
+    "name": "nativescript-meteor",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-meteor/-/nativescript-meteor-0.0.6.tgz",
+  "_shasum": "61d6a6a393c64462041dd4215949d8a7ce5a081d",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-meteor",
+  "_where": "/Users/pro/Desktop/daniel/mobile_App",
+  "author": {
+    "name": "jayuda"
+  },
+  "bugs": {
+    "url": "https://github.com/Jayuda/nativescript-meteor/issues"
+  },
+  "dependencies": {
+    "ddp-ejson": "git+https://github.com/blagoev/ddp-ejson.git",
+    "ddp-underscore-patched": "0.8.1-2",
+    "nativescript-websockets": "git+https://github.com/NathanaelA/nativescript-websockets.git"
+  },
+  "description": "Plugin to connect via DDP Meteor with NativeScript",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "61d6a6a393c64462041dd4215949d8a7ce5a081d",
+    "tarball": "https://registry.npmjs.org/nativescript-meteor/-/nativescript-meteor-0.0.6.tgz"
+  },
+  "gitHead": "19e7db86c8be87bd47f0eb95c2b550f394013619",
+  "homepage": "https://github.com/Jayuda/nativescript-meteor#readme",
+  "license": "apache",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "jayuda",
+      "email": "yulius.jayuda@gmail.com"
+    }
+  ],
+  "name": "nativescript-meteor",
+  "nativescript": {
+    "platforms": {
+      "ios": "1.5.0",
+      "android": "1.5.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayuda/nativescript-meteor.git"
+  },
+  "scripts": {},
+  "version": "0.0.6"
+}

@@ -1,8 +1,6 @@
 let Router = require('ui/frame')
 
-exports.loaded = () => {
-  console.log('Cargo...Login');
-}
+exports.loaded = () => {}
 
 let Login = () => {
   alert('Ingresaste')

@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-websockets@git+https://github.com/NathanaelA/nativescript-websockets.git",
+        "scope": null,
+        "escapedName": "nativescript-websockets",
+        "name": "nativescript-websockets",
+        "rawSpec": "git+https://github.com/NathanaelA/nativescript-websockets.git",
+        "spec": "git+https://github.com/NathanaelA/nativescript-websockets.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:NathanaelA/nativescript-websockets.git",
+          "sshUrl": "git+ssh://git@github.com/NathanaelA/nativescript-websockets.git",
+          "httpsUrl": "git+https://github.com/NathanaelA/nativescript-websockets.git",
+          "gitUrl": "git://github.com/NathanaelA/nativescript-websockets.git",
+          "shortcut": "github:NathanaelA/nativescript-websockets",
+          "directUrl": "https://raw.githubusercontent.com/NathanaelA/nativescript-websockets/master/package.json"
+        }
+      },
+      "/Users/pro/Desktop/daniel/mobile_App/node_modules/nativescript-meteor"
+    ]
+  ],
+  "_from": "git+https://github.com/NathanaelA/nativescript-websockets.git",
+  "_id": "nativescript-websockets@1.3.3",
+  "_inCache": true,
+  "_location": "/nativescript-websockets",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-websockets@git+https://github.com/NathanaelA/nativescript-websockets.git",
+    "scope": null,
+    "escapedName": "nativescript-websockets",
+    "name": "nativescript-websockets",
+    "rawSpec": "git+https://github.com/NathanaelA/nativescript-websockets.git",
+    "spec": "git+https://github.com/NathanaelA/nativescript-websockets.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:NathanaelA/nativescript-websockets.git",
+      "sshUrl": "git+ssh://git@github.com/NathanaelA/nativescript-websockets.git",
+      "httpsUrl": "git+https://github.com/NathanaelA/nativescript-websockets.git",
+      "gitUrl": "git://github.com/NathanaelA/nativescript-websockets.git",
+      "shortcut": "github:NathanaelA/nativescript-websockets",
+      "directUrl": "https://raw.githubusercontent.com/NathanaelA/nativescript-websockets/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/nativescript-meteor"
+  ],
+  "_resolved": "git+https://github.com/NathanaelA/nativescript-websockets.git#28f744be4bc1224d00b53e76a0d43ce964ef3b28",
+  "_shasum": "ad2764724a8fcacad6853181b92c3cfdbfbe4dd9",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-websockets@git+https://github.com/NathanaelA/nativescript-websockets.git",
+  "_where": "/Users/pro/Desktop/daniel/mobile_App/node_modules/nativescript-meteor",
+  "author": {
+    "name": "Nathanael Anderson",
+    "email": "nathan@master-technology.com"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanaela/nativescript-websockets/issues"
+  },
+  "contributors": [
+    {
+      "name": "Aleksey Gureiev",
+      "email": "spyromus@noizeramp.com",
+      "url": "https://github.com/alg"
+    },
+    {
+      "name": "Choi Won",
+      "email": "help@myso.kr",
+      "url": "https://github.com/myso-kr"
+    }
+  ],
+  "dependencies": {},
+  "description": "A WebSocket NativeScript module for Android",
+  "devDependencies": {},
+  "gitHead": "28f744be4bc1224d00b53e76a0d43ce964ef3b28",
+  "homepage": "https://github.com/nathanaela/nativescript-websockets",
+  "keywords": [
+    "NativeScript",
+    "WebSockets",
+    "Development",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "Sockets",
+    "Websocket"
+  ],
+  "license": {
+    "type": "MIT & Apache 2.0",
+    "url": "https://github.com/nathanaela/nativescript-sqlite/blob/master/LICENSE"
+  },
+  "main": "websockets.js",
+  "name": "nativescript-websockets",
+  "nativescript": {
+    "platforms": {
+      "android": "1.4.0",
+      "ios": "1.4.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "[![npm](https://img.shields.io/npm/v/nativescript-websockets.svg)](https://www.npmjs.com/package/nativescript-websockets)\n[![npm](https://img.shields.io/npm/l/nativescript-websockets.svg)](https://www.npmjs.com/package/nativescript-workers)\n[![npm](https://img.shields.io/npm/dt/nativescript-websockets.svg?label=npm%20d%2fls)](https://www.npmjs.com/package/nativescript-websockets)\n\n# NativeScript WebSockets\n\nThis is a cross platform WebSocket library for IOS and Android.   \n\n\n\n## License\nMy code is (c)2015-2016, Master Technology.  All my code is LICENSED under the MIT License. The Android Library is also MIT, the iOS libraries used Apache 2.0; which you may view them by reading the \"LICENSE\" file.\n\nI also do contract work; so if you have a module you want built for NativeScript (or any other software projects) feel free to contact me [nathan@master-technology.com](mailto://nathan@master-technology.com).\n\n[![Donate](https://img.shields.io/badge/Donate-PayPal-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=HN8DDMWVGBNQL&lc=US&item_name=Nathanael%20Anderson&item_number=nativescript%2dwebsockets&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3ax%3aNonHosted)\n[![Patreon](https://img.shields.io/badge/Pledge-Patreon-brightgreen.svg)](https://www.patreon.com/NathanaelA)\n\n\n\n\n## Installation\n\nFirst run `tns --version`\n\n### v1.4 or later\n\nRun `tns plugin add nativescript-websockets` in your ROOT directory of your project.\n\n## Limitations\n* The sending of Protocols support is not fully implemented on both platforms.  Do not depend on this; it only partially works..\n\n## Usage\n\nThere is two possible interfaces for you to use; the Simple WebSocket interface that emulates the browser based WebSockets and a more advanced WebSocket interface where you have more control.\n\n### Browser based Interface\n```js\nrequire('nativescript-websockets');\n\nvar mySocket = new WebSocket(\"ws://echo.websocket.org\", [ /* \"protocol\",\"another protocol\" */]);\nmySocket.addEventListener('open', function (evt) { console.log(\"We are Open\"); evt.target.send(\"Hello\"); });\nmySocket.addEventListener('message', function(evt) { console.log(\"We got a message: \", evt.data); evt.target.close(); });\nmySocket.addEventListener('close', function(evt) { console.log(\"The Socket was Closed:\", evt.code, evt.reason); });\nmySocket.addEventListener('error', function(evt) { console.log(\"The socket had an error\", evt.error); });\n\n```\n\n### Advanced Interface\n```js\nvar WS = require('nativescript-websockets');\n\nvar mySocket = new WS(\"ws://echo.websocket.org\",{protocols: [/* 'chat', 'video' */], timeout: 6000, allowCellular: true, headers: { 'Authorization': 'Basic ...' }});\nmySocket.on('open', function(socket) { console.log(\"Hey I'm open\"); socket.send(\"Hello\"); });\nmySocket.on('message', function(socket, message) { console.log(\"Got a message\", message); });\nmySocket.on('close', function(socket, code, reason) { console.log(\"Socket was closed because: \", reason, \" code: \", code); });\nmySocket.on('error', function(socket, error) { console.log(\"Socket had an error\", error);});\n\n```\n\n### Browser Based WebSockets\n\nThe browser based WebSockets are virtually identical to what you would get if you were using a Browser; they are automatically opened when you create it; all four events have \"event\" objects with different values.  You are not allowed to re-open a closed socket and you have no control over any additional features.  \n\n#### Create and OPENS a new BROWSER based WebSocket\n#### new WebSocket(url, [protocols]);\n##### Parameters\n* URL - (String) - Web Socket URL to open\n* Protocols - OPTIONAL (Array of String) - valid list protocols.  Please see limitations note.   \n\n#### Attaches an event to the WebSocket\n#### .attachEventListener(EventName, function)\n#### .on(EventName, function)\n##### Parameters\n* EventName - (String) can be \"open\", \"close\", \"message\" and \"error\"\n* function  - (Function) the function that will be called when the event occurs\n\n\n### Advanced WebSockets\n\nThe Advanced WebSockets allow you a lot more control over setting up and creating; in addition if they are closed; you can re-open it without having to reset your events.\n\n#### Create a new Advanced WebSocket\n#### var WS = require('nativescript-websockets');   var ws = new WS(url, options);\n##### Parameters\n* URL - Url to Open\n* Options\n** protocols - (Array of string) - Valid protocols.  (See Limitation note)\n** timeout - timeout  (Defaults to 60,0000ms on IOS amd 10,000ms on Android, setting this to 0 disables timeouts)\n** allowCellular (ios only, defaults to True) - can disable the WebSocket from going over the cellular network\n\n#### Attaches an event to the WebSocket\n#### .attachEventListener(EventName, function, passedThis)\n#### .on(EventName, function, passedThis)\n##### Parameters\n* EventName - (String) can be \"open\", \"close\", \"message\" and \"error\"\n* Function  - (Function) the function that will be called when the event occurs\n* passedThis - the \"this\" you want the Function to have\n\n#### Opens the WebSocket\n#### .open()\n##### Notes: in the Advanced WebSocket you can re-open a closed WebSocket...\n\n\n\n\n### Common Functions between Advanced and Browser WebSockets\n\n#### Closes the open Socket\n#### .close(code, reason)\n##### Parameters\n* code - OPTIONAL (Number) - code\n* reason - OPTIONAL (String) - reason\n\n#### Sends a Text or Binary Message\n#### .send(message)\n##### Parameters\n* message - String or Array/ArrayBuffer - Text string or Binary Message to send\n\n#### Retrieves the current State\n#### .readyState\n##### Values:\n* 0 - Connection\n* 1 - Open\n* 2 - Closing\n* 3 - Closed\n\n#### The URL you opened\n#### .url\n\n#### Returns the protocol negotiated\n#### .protocol\n##### Please see notes on limitations.\n\n#### Returns true if on IOS\n#### .ios\n\n#### Return true if on Android\n#### .android\n\n#### Remove an Event Listener\n#### .removeEventListener (EventName, function)\n#### .off(EventName, function)\n##### Parameters\n* EventName - (String) - Name of Event (open, close, message, error)\n* function - (optional Function) - If you don't pass any function to this; this will remove ALL event listeners for that event, otherwise it will just remove that one event listener.\n\n#### Check to see if it is open\n#### .isOpen()\n##### Returns true if the connection is open\n\n#### Check to see if it is closed\n#### .isClosed()\n##### Returns true if the connection is closed\n\n#### Check to see if it is connecting\n#### .isConnecting()\n##### Returns true if the connection is connecting\n\n#### Check to see if the connection is closing\n#### .isClosing()\n##### Returns true if it is in the process of closing...\n\n\n## Tutorials\n\nNeed a little bit more help getting up and running with NativeScript Websockets?  Check out these tutorials for NativeScript on the subject.\n\n* [Communicate with Websockets in a NativeScript Angular Application](https://www.thepolyglotdeveloper.com/2017/01/communicate-with-websockets-in-a-nativescript-angular-application/)",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanaela/nativescript-websockets.git"
+  },
+  "version": "1.3.3"
+}

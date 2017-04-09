@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Fseikb0ClhAYoQYkTzTjCvG3jnw=
+		HpjRGJizz9EE6jMhLlt/IC94s9g=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -99,6 +99,18 @@
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
 		CqyUnSiomEFTQRT/eq/zY0qAFwQ=
+		</data>
+		<key>Frameworks/PocketSocket.framework/Info.plist</key>
+		<data>
+		mLqTGag/11aBD7KkMeRC/FqpwvY=
+		</data>
+		<key>Frameworks/PocketSocket.framework/PocketSocket</key>
+		<data>
+		7c4dqiac6ycumLoquvCcHIhJ1R4=
+		</data>
+		<key>Frameworks/PocketSocket.framework/_CodeSignature/CodeResources</key>
+		<data>
+		5IjRddatf6XeFSZ8mC0567sWijw=
 		</data>
 		<key>Frameworks/TKLiveSync.framework/Info.plist</key>
 		<data>
@@ -126,7 +138,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WpYrrsbZCdaP5RsuFMja2/j+kfU=
+		9Seasdh7GzD0TKZdQy28zeCefjc=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -194,7 +206,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		0LLeURNt1t650Hq9C6YanfgpUuE=
+		+GdmXyCiF45REtEaUydV2x80ud0=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -202,7 +214,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Ovl7gGDivpwcpOUWY5nRtIyNvZg=
+		m4bbkDq8uP82FoNyaI2GlEjtH8A=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -210,35 +222,147 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		wdLu8vUaXSfKUWlxkoXSm1zaVpQ=
+		gS2Ljai3KTe3BUkYvxiHC2aEUJo=
 		</data>
 		<key>app/app.js</key>
 		<data>
-		sIncjUX4T1I61pkBVLcJ5EHEK7o=
+		uehT7ou+Q1OU8a90HrsLUzhOOmM=
 		</data>
 		<key>app/bundle-config.js</key>
 		<data>
 		BZjEVi94RbJp1dunOY8mf6igpTg=
 		</data>
-		<key>app/main-page.js</key>
+		<key>app/images/login-register.jpg</key>
 		<data>
-		49/T/HWk1B08Pqabv8LlIVmRnhk=
-		</data>
-		<key>app/main-page.xml</key>
-		<data>
-		2tt5QUc3voQpQIga1hqL7SAIAHc=
+		rqTwtcSf1eboupHBWrEAJAMQTrE=
 		</data>
 		<key>app/main-view-model.js</key>
 		<data>
-		+XelK0+zH+mEQVYj91l+kUwkdQ0=
+		z1/yx6Axac1cSYzEzMpyif6Yuws=
 		</data>
 		<key>app/package.json</key>
 		<data>
 		ptN9EWySOeU92uTGahKW2vMDTu4=
 		</data>
+		<key>app/platform.css</key>
+		<data>
+		ZfxajCj6rtrEV0h0a36H+FiLenI=
+		</data>
 		<key>app/references.d.ts</key>
 		<data>
 		yDozBNmMJYY1mHH12KwQyKqK+Eg=
+		</data>
+		<key>app/shared/backend.js</key>
+		<data>
+		aRYoH1hkC9YjPgb0aWEiVxmeNWo=
+		</data>
+		<key>app/tns_modules/ddp-ejson/.npmignore</key>
+		<data>
+		kZPjXYt/wz12hGFQUWDBLJbGCL0=
+		</data>
+		<key>app/tns_modules/ddp-ejson/.travis.yml</key>
+		<data>
+		OSo4T0UaYnSeGV3yzVduM4UVdWQ=
+		</data>
+		<key>app/tns_modules/ddp-ejson/LICENSE</key>
+		<data>
+		ALejMAMVS/JXfP2yaPjcqjOQRHw=
+		</data>
+		<key>app/tns_modules/ddp-ejson/README.md</key>
+		<data>
+		c7TBdoRcGEXhdVIvigGrsyhxwDY=
+		</data>
+		<key>app/tns_modules/ddp-ejson/ejson.js</key>
+		<data>
+		5/0bSmWO/Ou1IMd0OYvkZ/c/zhw=
+		</data>
+		<key>app/tns_modules/ddp-ejson/ejson_test.js</key>
+		<data>
+		QIfaz1x+E0XgAIr6kHE5Qs0xeJ0=
+		</data>
+		<key>app/tns_modules/ddp-ejson/objectid.js</key>
+		<data>
+		BY4rIP+cMeYybGFv5PmsijF3fik=
+		</data>
+		<key>app/tns_modules/ddp-ejson/package.json</key>
+		<data>
+		whFyqwlLfKkzH/qD1DZMfXgOSOU=
+		</data>
+		<key>app/tns_modules/ddp-underscore-patched/.npmignore</key>
+		<data>
+		kZPjXYt/wz12hGFQUWDBLJbGCL0=
+		</data>
+		<key>app/tns_modules/ddp-underscore-patched/LICENSE</key>
+		<data>
+		IsT813alQuIPrXPTgoi3OHCvwus=
+		</data>
+		<key>app/tns_modules/ddp-underscore-patched/README.md</key>
+		<data>
+		Tj9+RkIKHgDzLeIdihxmmEne9og=
+		</data>
+		<key>app/tns_modules/ddp-underscore-patched/package.json</key>
+		<data>
+		d26xM0cuxqp6I936ghm/bUM6eYE=
+		</data>
+		<key>app/tns_modules/ddp-underscore-patched/underscore-tests.js</key>
+		<data>
+		HhE2o/g4B63g3lYGeelXUzD6ebs=
+		</data>
+		<key>app/tns_modules/ddp-underscore-patched/underscore.js</key>
+		<data>
+		D8LozwWo57VVvZSvqWyaHcYKO5w=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/.gitattributes</key>
+		<data>
+		CCRCoQbCmtsJZp8yH5hMG/YG94A=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/.idea/encodings.xml</key>
+		<data>
+		rb2mrmDNOyGay9Kqjfo96VSLc3w=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/.idea/misc.xml</key>
+		<data>
+		Tbr04R1FFW5PEvMrHTZwWOtzVAM=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/.idea/modules.xml</key>
+		<data>
+		aT4d8oETEMuFZpn5/d4wN9j+A3o=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/.idea/nativescript-meteor.iml</key>
+		<data>
+		WFnJiD9G+fd8zdIukPcbgu+JCyI=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/.idea/vcs.xml</key>
+		<data>
+		yS8+sK0ccDceF3pNfXQfkK8/kCw=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/.idea/workspace.xml</key>
+		<data>
+		6PdKcy3s12VfdBzV8+Ag+w+Htrc=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/.npmignore</key>
+		<data>
+		DUTYpkxaPTZkLZ2LvepzPbPszcA=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/LICENSE</key>
+		<data>
+		p8ynhW+Z+7dRoVvPF86gYCJ0HFM=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/README.md</key>
+		<data>
+		dnhg7zThIL9nIy4dci/e9rCyut8=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/index.js</key>
+		<data>
+		bmtN6zpnXmAgVBWG+DFYtvxEuXE=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/package.json</key>
+		<data>
+		HUE7kfcqItEoZGNjRGqJgvFc6EM=
+		</data>
+		<key>app/tns_modules/nativescript-meteor/path.js</key>
+		<data>
+		H2ispXxM7jWwoPPo1Ov3CGh62hA=
 		</data>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
 		<data>
@@ -631,6 +755,26 @@
 		<key>app/tns_modules/nativescript-theme-core/scss/utilities/_text.scss</key>
 		<data>
 		MV+ZX8kzvmw6pQYOINLgnG3jAZs=
+		</data>
+		<key>app/tns_modules/nativescript-websockets/LICENSE</key>
+		<data>
+		746JZF3RL7KWhU3f2onEW6JPjyE=
+		</data>
+		<key>app/tns_modules/nativescript-websockets/README.md</key>
+		<data>
+		F/vKawoWFIbTExNwUobbzf4BoAM=
+		</data>
+		<key>app/tns_modules/nativescript-websockets/package.json</key>
+		<data>
+		RIdhLY0oUNjMzPvZsDpuXDnZhsU=
+		</data>
+		<key>app/tns_modules/nativescript-websockets/websockets-common.js</key>
+		<data>
+		7PuKKHUW4zCKjy+p+BGq9cjONZE=
+		</data>
+		<key>app/tns_modules/nativescript-websockets/websockets.js</key>
+		<data>
+		LTgDFOKpSdGSIWcnlscKWwJgoxo=
 		</data>
 		<key>app/tns_modules/tns-core-modules-widgets/LICENSE</key>
 		<data>
@@ -1628,6 +1772,26 @@
 		<data>
 		4qqIlK9DL77zY06+sgQwXTeChfE=
 		</data>
+		<key>app/views/auth/login.css</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>app/views/auth/login.js</key>
+		<data>
+		1fY3ydKxf0RoeG0VoT5zMX/Jx9s=
+		</data>
+		<key>app/views/auth/login.xml</key>
+		<data>
+		LHFLihRh2zWa2rhOVIC4cCwKOtI=
+		</data>
+		<key>app/views/auth/signup.js</key>
+		<data>
+		AID81BeDFoo7TwBNfqFVAT+gjj0=
+		</data>
+		<key>app/views/auth/signup.xml</key>
+		<data>
+		Dd6UeuqXLdYvcbNt8DrB/uBWT/o=
+		</data>
 		<key>build.xcconfig</key>
 		<data>
 		RNL/GAS4TOxSHBwCBUOpAd1PTlk=
@@ -1868,11 +2032,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fseikb0ClhAYoQYkTzTjCvG3jnw=
+			HpjRGJizz9EE6jMhLlt/IC94s9g=
 			</data>
 			<key>hash2</key>
 			<data>
-			QY/iyrkQLX1e1uQVCeLk+kqAlfTNzs9dTRcaNUvA6lQ=
+			y1CvJV4wFqea8Rh7rkq29L3wXNtFSVl77+8uOJeHJ9g=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -1906,6 +2070,39 @@
 			<key>hash2</key>
 			<data>
 			og39Fu5MS3lp9kyVXkh03bc1DJ0ZsW3NgdsgTy9UUmc=
+			</data>
+		</dict>
+		<key>Frameworks/PocketSocket.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mLqTGag/11aBD7KkMeRC/FqpwvY=
+			</data>
+			<key>hash2</key>
+			<data>
+			t9j2g7X3Vn73n+nYBDuP8cIzygdV+kUcR831mfA9C4o=
+			</data>
+		</dict>
+		<key>Frameworks/PocketSocket.framework/PocketSocket</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7c4dqiac6ycumLoquvCcHIhJ1R4=
+			</data>
+			<key>hash2</key>
+			<data>
+			NDBlmj5xZnKgJufdgVnOcOG7Gn3RWyJZbxIo8vdzIDA=
+			</data>
+		</dict>
+		<key>Frameworks/PocketSocket.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5IjRddatf6XeFSZ8mC0567sWijw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Wfct7nWQETOV1tv/dwmL5lTxd6xypK9+sBqq0/8+gj4=
 			</data>
 		</dict>
 		<key>Frameworks/TKLiveSync.framework/Info.plist</key>
@@ -2154,11 +2351,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0LLeURNt1t650Hq9C6YanfgpUuE=
+			+GdmXyCiF45REtEaUydV2x80ud0=
 			</data>
 			<key>hash2</key>
 			<data>
-			lsizch5FzainhnmSK1/H9WlgausKpfg7sV0nIX4xXUY=
+			i88J0jxxI5KxrxxUS9+s2FvAFmoh28Q266pdFNzsOyo=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -2176,33 +2373,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ovl7gGDivpwcpOUWY5nRtIyNvZg=
+			m4bbkDq8uP82FoNyaI2GlEjtH8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			u+N+NlkKDhXyZa1UDcWn+D1FulCnFU5N9YLZz3v3MvE=
+			rrAus5sGt/8BtkxdbbfnAmgnMirg8DFR2t/GcPgq1f4=
 			</data>
 		</dict>
 		<key>app/app.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wdLu8vUaXSfKUWlxkoXSm1zaVpQ=
+			gS2Ljai3KTe3BUkYvxiHC2aEUJo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ufhpn5Fn6wWLQspEIs39el5HD+TNx38KrJHkhII9A8Q=
+			BLcuKb0VSNm2GHfgtj8sjL5rBumKBY+N/Vvhmd4Wzu0=
 			</data>
 		</dict>
 		<key>app/app.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sIncjUX4T1I61pkBVLcJ5EHEK7o=
+			uehT7ou+Q1OU8a90HrsLUzhOOmM=
 			</data>
 			<key>hash2</key>
 			<data>
-			RkHRewjFCOeoZUy62Lar04GkEpN8JIyBZ7OLowqmb+8=
+			CiEduvy7EaOuwewMixyJpi4lwiwPVuGmVzthEoggDPA=
 			</data>
 		</dict>
 		<key>app/bundle-config.js</key>
@@ -2216,37 +2413,26 @@
 			Ups69q4CmXvEnKebWBpfZ3lf37CIYK3OLFhUaf0zZKY=
 			</data>
 		</dict>
-		<key>app/main-page.js</key>
+		<key>app/images/login-register.jpg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			49/T/HWk1B08Pqabv8LlIVmRnhk=
+			rqTwtcSf1eboupHBWrEAJAMQTrE=
 			</data>
 			<key>hash2</key>
 			<data>
-			v3NGargtyFrd83EJsoo1M548pmgzcU+PJapqTLY8InU=
-			</data>
-		</dict>
-		<key>app/main-page.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2tt5QUc3voQpQIga1hqL7SAIAHc=
-			</data>
-			<key>hash2</key>
-			<data>
-			2qkDRn99iZyOUvzkQwbbVR3/QtvR/cS5mQU7WrM0fz4=
+			ChLF/OQ5B57Y5Zdt4R8TEtEiXcQkR/upGigt+n4Dbsk=
 			</data>
 		</dict>
 		<key>app/main-view-model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+XelK0+zH+mEQVYj91l+kUwkdQ0=
+			z1/yx6Axac1cSYzEzMpyif6Yuws=
 			</data>
 			<key>hash2</key>
 			<data>
-			Un3i7m7zNw2vJ7zmk5YAadaAuQkDDmRo86+khGOQlVM=
+			eDfueFGuiPQ1QAzBUWAOm8hnjhtyerlO6jkoNkxEw8Y=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -2260,6 +2446,17 @@
 			dDuGlceZAE7vr3R0G3tELUJqVxMW+xEdXrAoCe2k/Fo=
 			</data>
 		</dict>
+		<key>app/platform.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZfxajCj6rtrEV0h0a36H+FiLenI=
+			</data>
+			<key>hash2</key>
+			<data>
+			fLX7MTr9EO+QJsKT7+5+vIQ92Shzza7D021+ukTkxpo=
+			</data>
+		</dict>
 		<key>app/references.d.ts</key>
 		<dict>
 			<key>hash</key>
@@ -2269,6 +2466,314 @@
 			<key>hash2</key>
 			<data>
 			X5pHYco8Emfivn+R0JfB7m2/Wmi+3nt0u8Es7slK14U=
+			</data>
+		</dict>
+		<key>app/shared/backend.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aRYoH1hkC9YjPgb0aWEiVxmeNWo=
+			</data>
+			<key>hash2</key>
+			<data>
+			OlkazyeY+f5E0+VmWZhFaBkg6FSlLvfpaqhq5FuLtzo=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-ejson/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kZPjXYt/wz12hGFQUWDBLJbGCL0=
+			</data>
+			<key>hash2</key>
+			<data>
+			26J8MarZNXh7snXD5eTpV3CPFTht5Znv8dtHYCLNfkw=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-ejson/.travis.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OSo4T0UaYnSeGV3yzVduM4UVdWQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			uYfVFBvUeDdErMqDZUe0tJuQh/fEJKEBYb9o01fLID4=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-ejson/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ALejMAMVS/JXfP2yaPjcqjOQRHw=
+			</data>
+			<key>hash2</key>
+			<data>
+			tgJ41KDXokvVXQezJ/3LjYKoGr+q0zz4cFQJEq7+peo=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-ejson/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c7TBdoRcGEXhdVIvigGrsyhxwDY=
+			</data>
+			<key>hash2</key>
+			<data>
+			n6jxo7CSxcTZ/eD5yfaARrVXvrxL3HlKAcSONhvlN0o=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-ejson/ejson.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5/0bSmWO/Ou1IMd0OYvkZ/c/zhw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q6Z27L4fxvvgaEnlZYBPQN0WxCGgAq4cU/jBpv7f8jA=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-ejson/ejson_test.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QIfaz1x+E0XgAIr6kHE5Qs0xeJ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			0Uala0wcu1h4pA+5C9x8tKm1S++3SCqrQX0pRsKBfbY=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-ejson/objectid.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BY4rIP+cMeYybGFv5PmsijF3fik=
+			</data>
+			<key>hash2</key>
+			<data>
+			o+L+EqDxLzYYijeClTFIZYuRtRiY7ILl3YzVw1Sl0xY=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-ejson/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			whFyqwlLfKkzH/qD1DZMfXgOSOU=
+			</data>
+			<key>hash2</key>
+			<data>
+			B5kBVUT0aREFQu2H14CFZLULuFBmoKfG72kO61vdoYs=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-underscore-patched/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kZPjXYt/wz12hGFQUWDBLJbGCL0=
+			</data>
+			<key>hash2</key>
+			<data>
+			26J8MarZNXh7snXD5eTpV3CPFTht5Znv8dtHYCLNfkw=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-underscore-patched/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IsT813alQuIPrXPTgoi3OHCvwus=
+			</data>
+			<key>hash2</key>
+			<data>
+			+jm5JlAzS72M41Ga4YZsUZWpgqJQaqsFm3yfh7v+nOA=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-underscore-patched/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Tj9+RkIKHgDzLeIdihxmmEne9og=
+			</data>
+			<key>hash2</key>
+			<data>
+			dPxuuTceurqQcqUPNIGeAKYo+WQVosHPj9OcMFrbo74=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-underscore-patched/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			d26xM0cuxqp6I936ghm/bUM6eYE=
+			</data>
+			<key>hash2</key>
+			<data>
+			yNe32hwgsEK/OXbS7PKvtVpY5O23T12hfAvCk+Tr+/s=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-underscore-patched/underscore-tests.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HhE2o/g4B63g3lYGeelXUzD6ebs=
+			</data>
+			<key>hash2</key>
+			<data>
+			xMEjFnoB+fNbQ+YJBALGECyrJTMDY2LUKjCq82XdwF8=
+			</data>
+		</dict>
+		<key>app/tns_modules/ddp-underscore-patched/underscore.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D8LozwWo57VVvZSvqWyaHcYKO5w=
+			</data>
+			<key>hash2</key>
+			<data>
+			GJQSXAMC4/uCy9grtXYKGsRbWRl/QykcRnmK6aMu2zs=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/.gitattributes</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CCRCoQbCmtsJZp8yH5hMG/YG94A=
+			</data>
+			<key>hash2</key>
+			<data>
+			3MTgSplS/0RrnXjGJNgDebDyD1gXqJubKxq4tVuC/VI=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/.idea/encodings.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rb2mrmDNOyGay9Kqjfo96VSLc3w=
+			</data>
+			<key>hash2</key>
+			<data>
+			NeBo3nWkmcCXRYXwG0ZoxW+UbcujqCOPTBpbakZ6pao=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/.idea/misc.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Tbr04R1FFW5PEvMrHTZwWOtzVAM=
+			</data>
+			<key>hash2</key>
+			<data>
+			FtdMooyiy/P136aVnV/Mzg0VYAMOXvgJDFRa/Mo4uBs=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/.idea/modules.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aT4d8oETEMuFZpn5/d4wN9j+A3o=
+			</data>
+			<key>hash2</key>
+			<data>
+			w9l5DWBnU2CudJf4VIIVH+4VOmeWmlpnkNIWtVG4kDo=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/.idea/nativescript-meteor.iml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WFnJiD9G+fd8zdIukPcbgu+JCyI=
+			</data>
+			<key>hash2</key>
+			<data>
+			6cAE1b7tuNhQGqVFYJa9XRgYDzCBzS9W6BlsRGWYOKI=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/.idea/vcs.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yS8+sK0ccDceF3pNfXQfkK8/kCw=
+			</data>
+			<key>hash2</key>
+			<data>
+			VXaPH4T7EX8dD8OD4YC10KpeXmWEyMSimVwVtCN/CXI=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/.idea/workspace.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6PdKcy3s12VfdBzV8+Ag+w+Htrc=
+			</data>
+			<key>hash2</key>
+			<data>
+			zULJBGGFSUbnERaewcsi6R1LRcPljdMq/SUJYp23SVM=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DUTYpkxaPTZkLZ2LvepzPbPszcA=
+			</data>
+			<key>hash2</key>
+			<data>
+			n1dn/ACX/yE6V7+V2LkhN0PzBIGDwyyu/0tTNfphm4c=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p8ynhW+Z+7dRoVvPF86gYCJ0HFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			xBDg5YLTvYdHKbyGGhH35f5BzxW4lFmwxKWajXL9vkA=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dnhg7zThIL9nIy4dci/e9rCyut8=
+			</data>
+			<key>hash2</key>
+			<data>
+			OKVRu98b8SPBdc9V/xiWseeOceUIDhFcmaFCEwqqrZs=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/index.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bmtN6zpnXmAgVBWG+DFYtvxEuXE=
+			</data>
+			<key>hash2</key>
+			<data>
+			4fcnG9BX6OgIPoyrYbr4SE2hrcjIJ0ISOnmzS9oIdTk=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HUE7kfcqItEoZGNjRGqJgvFc6EM=
+			</data>
+			<key>hash2</key>
+			<data>
+			QsSxfjoWcUaBmH6LE62fGd3XH65ohnwTqErwP++y3hU=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-meteor/path.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H2ispXxM7jWwoPPo1Ov3CGh62hA=
+			</data>
+			<key>hash2</key>
+			<data>
+			qwIKWPH1LdLbdpj8JRbMjQaXbHQIncI2tD9mz9mvcLU=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
@@ -3347,6 +3852,61 @@
 			<key>hash2</key>
 			<data>
 			+yVjy4T6c/PeYoiHHyWW6o3Xv/zSCouyEDBLL/UM3hI=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-websockets/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			746JZF3RL7KWhU3f2onEW6JPjyE=
+			</data>
+			<key>hash2</key>
+			<data>
+			gmHjm+9KsRmskwGiodQqXF87L2/kGZLIAr+R1F74l2A=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-websockets/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F/vKawoWFIbTExNwUobbzf4BoAM=
+			</data>
+			<key>hash2</key>
+			<data>
+			mt3Xrh8ilhcMIbTa1AXc03StJe9yWjIuhfGnKrhO/HY=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-websockets/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RIdhLY0oUNjMzPvZsDpuXDnZhsU=
+			</data>
+			<key>hash2</key>
+			<data>
+			t7a5YNBsPfKZH44aKsqATrN/5TMOwIKxnOOa5b7xoSw=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-websockets/websockets-common.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7PuKKHUW4zCKjy+p+BGq9cjONZE=
+			</data>
+			<key>hash2</key>
+			<data>
+			i65/JxTZyNywJGT7id7jMG4zdItO42aAt779y9Aplww=
+			</data>
+		</dict>
+		<key>app/tns_modules/nativescript-websockets/websockets.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LTgDFOKpSdGSIWcnlscKWwJgoxo=
+			</data>
+			<key>hash2</key>
+			<data>
+			DpKYyzeTdsjsMqbJEfR4IBM2WVQt32PkLf1/sPqGEdM=
 			</data>
 		</dict>
 		<key>app/tns_modules/tns-core-modules-widgets/LICENSE</key>
@@ -6086,6 +6646,61 @@
 			<key>hash2</key>
 			<data>
 			yi+uxdzPQ51xYTCPpTi1+3GwKnpVlOv5GbhSJX1s/qU=
+			</data>
+		</dict>
+		<key>app/views/auth/login.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			</data>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>app/views/auth/login.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1fY3ydKxf0RoeG0VoT5zMX/Jx9s=
+			</data>
+			<key>hash2</key>
+			<data>
+			2gCYdDF1Vay3NIvnZgyEp7eYVi4w1ecFNbiGWhPaSC0=
+			</data>
+		</dict>
+		<key>app/views/auth/login.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LHFLihRh2zWa2rhOVIC4cCwKOtI=
+			</data>
+			<key>hash2</key>
+			<data>
+			W4Qb2kXfLvXb/SQfNb+A1/tYDX5jsWHm5ymjKPJGE+w=
+			</data>
+		</dict>
+		<key>app/views/auth/signup.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AID81BeDFoo7TwBNfqFVAT+gjj0=
+			</data>
+			<key>hash2</key>
+			<data>
+			SMqbozsyN0tRkFRq6rhHt/dc7mIesr0IlJwVloeKp6M=
+			</data>
+		</dict>
+		<key>app/views/auth/signup.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Dd6UeuqXLdYvcbNt8DrB/uBWT/o=
+			</data>
+			<key>hash2</key>
+			<data>
+			/BMU29m5mCP6dncuAHazME885INg5VViEXHEZrXgUBU=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>

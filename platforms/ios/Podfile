@@ -1,0 +1,8 @@
+use_frameworks!
+
+target "mobileApp" do
+# Begin Podfile - /Users/pro/Desktop/daniel/mobile_App/node_modules/nativescript-websockets/platforms/ios/Podfile 
+ pod 'PocketSocket', :git => 'https://github.com/NathanaelA/PocketSocket' 
+ # End Podfile 
+
+end

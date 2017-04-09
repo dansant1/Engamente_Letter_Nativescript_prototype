@@ -1,0 +1,10 @@
+<Page loaded="loaded">
+
+  <StackLayout orientation="vertical">
+    <Label text="Engagement Letter App" class="logo"/>
+    <TextField hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+    <TextField hint="Password" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+    <Button text="Sign in" tap="Login"/>
+  </StackLayout>
+
+</Page>
