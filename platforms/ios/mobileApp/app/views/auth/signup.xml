@@ -2,7 +2,7 @@
   <ActionBar title="Signup" color="white" backgroundColor="teal"></ActionBar>
   <StackLayout orientation="vertical">
     <Label text="Lorem ipsum dolor sit amet" class="top" />
-    <TextField hint="Email Address" id="input" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+    <TextField hint="Email Address" text="{{email}}" id="input" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
     <Button text="Next" class="link input" tap="Save_email"/>
     <StackLayout orientation="horizontal">
       <Label text="Do you have an account?" class="line left"/>

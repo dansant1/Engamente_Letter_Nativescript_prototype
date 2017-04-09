@@ -1,17 +1,23 @@
 let Router = require('ui/frame');
 let DDP = require('../../shared/backend').DDP;
+let Observable = require("data/observable").Observable;
 
 let Color = require('color')
 let View;
+let user = new Observable({
+  email: ''
+});
+
 exports.loaded = (args) => {
   View = args.object;
-  // inputText.ios.layer.maskToBounds = false;
-  // inputText.ios.layer.shadowOpacity =  1.0;
-  // inputText.ios.layer.shadowRadius = 0.0;
-  // inputText.ios.shadowColor = new Color('#000000').ios.CGColor;
-  // inputText.ios.layer.shadowOffset = CGSizeMake(2.0, 2.0)
+
+  if (View.ios) {
+    let navigationBar = Router.topmost().ios.controller.navigationBar;
+    navigationBar.barStyle = UIBarStyle.UIBarStyleBlack;
+  }
+
   DDP.connect( (error, wasReconnect) => {
-    console.log('Cargo Meteor');
+    View.bindingContext = user;
   })
 }
 
