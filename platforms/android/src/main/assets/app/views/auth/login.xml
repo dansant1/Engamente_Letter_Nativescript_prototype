@@ -1,0 +1,8 @@
+<Page loaded="loaded" class="coverImage">
+  <ActionBar title="Login" color="white" backgroundColor="teal"></ActionBar>
+  <StackLayout orientation="vertical">
+    <TextField hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+    <TextField hint="Password" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+    <Button text="Sign in" class="link input" tap="Login"/>
+  </StackLayout>
+</Page>

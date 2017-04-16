@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ddp-ejson@git+https://github.com/blagoev/ddp-ejson.git",
+        "scope": null,
+        "escapedName": "ddp-ejson",
+        "name": "ddp-ejson",
+        "rawSpec": "git+https://github.com/blagoev/ddp-ejson.git",
+        "spec": "git+https://github.com/blagoev/ddp-ejson.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:blagoev/ddp-ejson.git",
+          "sshUrl": "git+ssh://git@github.com/blagoev/ddp-ejson.git",
+          "httpsUrl": "git+https://github.com/blagoev/ddp-ejson.git",
+          "gitUrl": "git://github.com/blagoev/ddp-ejson.git",
+          "shortcut": "github:blagoev/ddp-ejson",
+          "directUrl": "https://raw.githubusercontent.com/blagoev/ddp-ejson/master/package.json"
+        }
+      },
+      "/Users/pro/Desktop/daniel/mobile_App/node_modules/nativescript-meteor"
+    ]
+  ],
+  "_from": "git+https://github.com/blagoev/ddp-ejson.git",
+  "_id": "ddp-ejson@0.8.1-3",
+  "_inCache": true,
+  "_location": "/ddp-ejson",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ddp-ejson@git+https://github.com/blagoev/ddp-ejson.git",
+    "scope": null,
+    "escapedName": "ddp-ejson",
+    "name": "ddp-ejson",
+    "rawSpec": "git+https://github.com/blagoev/ddp-ejson.git",
+    "spec": "git+https://github.com/blagoev/ddp-ejson.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:blagoev/ddp-ejson.git",
+      "sshUrl": "git+ssh://git@github.com/blagoev/ddp-ejson.git",
+      "httpsUrl": "git+https://github.com/blagoev/ddp-ejson.git",
+      "gitUrl": "git://github.com/blagoev/ddp-ejson.git",
+      "shortcut": "github:blagoev/ddp-ejson",
+      "directUrl": "https://raw.githubusercontent.com/blagoev/ddp-ejson/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/nativescript-meteor"
+  ],
+  "_resolved": "git+https://github.com/blagoev/ddp-ejson.git#2cd0230a864e43086e68eb723dd5cfca22ef7dca",
+  "_shasum": "9e1da464a51efe536fc137ee84535940b408046f",
+  "_shrinkwrap": null,
+  "_spec": "ddp-ejson@git+https://github.com/blagoev/ddp-ejson.git",
+  "_where": "/Users/pro/Desktop/daniel/mobile_App/node_modules/nativescript-meteor",
+  "author": {
+    "name": "emgee3"
+  },
+  "bugs": {
+    "url": "https://github.com/oortcloud/ddp-ejson/issues"
+  },
+  "dependencies": {
+    "ddp-underscore-patched": "0.8.1-2"
+  },
+  "description": "Extended JSON as seen in Meteor and DDP",
+  "devDependencies": {
+    "test": "~0.6.0"
+  },
+  "gitHead": "2cd0230a864e43086e68eb723dd5cfca22ef7dca",
+  "homepage": "https://github.com/oortcloud/ddp-ejson#readme",
+  "keywords": [
+    "JSON",
+    "EJSON",
+    "serialization",
+    "meteor",
+    "ddp"
+  ],
+  "license": "MIT",
+  "main": "ejson.js",
+  "name": "ddp-ejson",
+  "optionalDependencies": {},
+  "readme": "ejson\n=====\n\n[![Build Status](https://travis-ci.org/oortcloud/ddp-ejson.svg)](https://travis-ci.org/oortcloud/ddp-ejson)\n\nExtended JSON library; used in [Meteor](http://meteor.com)'s [Distributed Data Protocol](https://github.com/meteor/meteor/blob/devel/packages/livedata/DDP.md).\n\n\nEJSON is a way of embedding more than the built-in JSON types in JSON.  It\nsupports all types built into JSON as plain JSON, plus the following:\n\n**Dates:**\n\n    {\"$date\": MILLISECONDS_SINCE_EPOCH}\n\n**Binary data:**\n\n    {\"$binary\": BASE_64_STRING}\n\n(The base 64 string has `+` and `/` as characters 62 and 63, and has no maximum line length)\n\n**Escaped things** that might otherwise look like EJSON types:\n\n    {\"$escape\": THING}\n\nFor example, here is the JSON value `{$date: 10000}` stored in EJSON:\n\n    {\"$escape\": {\"$date\": 10000}}\n\nNote that escaping only causes keys to be literal for one level down; you can\nhave further EJSON inside.  For example, the following is the key `$date` mapped\nto a Date object:\n\n    {\"$escape\": {\"$date\": {\"$date\": 32491}}}\n\n**User-specified types:**\n\n    {\"$type\": TYPENAME, \"$value\": VALUE}\n\n\n**Meteor ObjectIDs**\n\nSupport for the \"oid\" custom type used for Meteor ObjectIDs is built-in:\n\n\t{\"$type\": \"oid\", \"$value\": \"c896e40bf6e51bbdc9adcf59\"}\n\nObjectIDs may also be constructed:\n\n```js\n// Create a new Random ID\nObjID = new EJSON.ObjectID()\n\n// Create an ID with a known value\nmyID = new EJSON.ObjectID(\"c896e40bf6e51bbdc9adcf59\")\n```\n\nImplementations of EJSON should try to preserve key order where they can.  Users\nof EJSON should not rely on key order, if possible.\n\n> MongoDB relies on key order.  When using EJSON with MongoDB, the\n> implementation of EJSON must preserve key order.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oortcloud/ddp-ejson.git"
+  },
+  "scripts": {
+    "test": "node ejson_test.js"
+  },
+  "version": "0.8.1-3"
+}
