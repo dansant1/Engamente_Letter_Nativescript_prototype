@@ -1,6 +1,7 @@
 <Page loaded="loaded" class="coverImage">
   <ActionBar title="Login" color="white" backgroundColor="teal"></ActionBar>
   <StackLayout orientation="vertical">
+  	 <Label text="Lorem ipsum dolor sit amet" class="top" />
     <TextField hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
     <TextField hint="Password" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
     <Button text="Sign in" class="link input" tap="Login"/>
